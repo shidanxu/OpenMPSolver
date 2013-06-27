@@ -22,7 +22,7 @@ int main(int argc, const char * argv[])
     //int impression_dimensions [] = {10};
     //long double bid_sparsity_scenario [] = {0.5};
 
-    long int advertiser_dimensions [] = {100000};
+    long int advertiser_dimensions [] = {1000000};
     long int impression_dimensions [] = {1000000};
     long double bid_sparsity_scenario [] = {0.0001};
 
@@ -34,7 +34,6 @@ int main(int argc, const char * argv[])
     for (long int i = 0; i < (sizeof(advertiser_dimensions) / sizeof(long int)); ++i) {
         for (long int j = 0; j < (sizeof(impression_dimensions) / sizeof(long int)); ++j) {
             for (int k = 0; k < (sizeof(bid_sparsity_scenario) / sizeof(long double)); ++k) {
-            	cout << "(i, j, k) = (" << i << ", " << j << ", " << k << ")\n";
                 Instance inst = Instance(advertiser_dimensions[i],
                                          impression_dimensions[j],
                                          1,
