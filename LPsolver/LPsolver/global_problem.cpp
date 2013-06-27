@@ -74,14 +74,13 @@ namespace distributed_solver {
         // Find optimal budget allocations to problems.
         cout << "Solving subproblems \n";
        
-        /*
         for (int i = 0; i < num_partitions_; ++i) {
             //subproblems_[i].SolveSubproblem(iteration, i);
             //subproblems_[i].SolveSubproblemConvexHull(iteration, i);
             subproblems_[i].SolveSubproblemConvexHullOptimized(iteration, i);
         }
-         */
         
+        /*
         int num_threads = 4;
         int threadId = 0;
         int i, ending;
@@ -99,7 +98,7 @@ namespace distributed_solver {
 				subproblems_[i].SolveSubproblemConvexHullOptimized(iteration, i);
 			}
 		}
-        
+        */
         t2 = clock();
         diff = ((float)t2-(float)t1);
         cout << "subproblems took  " << diff << "\n";
@@ -118,7 +117,7 @@ namespace distributed_solver {
         long double dual_val = 0;
         primal_assignment_test_ = 0;
         
-        /*
+        
         for (int i = 0; i < num_partitions_; ++i) {
             if (budget_allocation_[i].second > 0) {
                 long double u = subproblems_[i].envelope_points_[budget_allocation_[i].first].first;
@@ -127,7 +126,7 @@ namespace distributed_solver {
                 ConstructSubproblemPrimal(i, budget_allocation_[i].second, budget_allocation_[i].first);
             }
         }
-        */
+        /*
         
         threadId = 0;
         
@@ -147,7 +146,7 @@ namespace distributed_solver {
             }
             
         }
-        
+        */
         Instance::UpdatePrimal(iteration, solution_, primal_changes_);
         
         t2 = clock();
