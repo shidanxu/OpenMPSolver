@@ -121,7 +121,7 @@
 /* Begin PBXProject section */
 		203CE81F1773AB2A00699F1B /* Project object */ = {
 			isa = PBXProject;
-			attributes = {Ciocan
+			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Dragos Ciocan";
 			};
