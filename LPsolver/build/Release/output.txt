@@ -1,0 +1,1674 @@
+Generated instance 
+Running allocation LP MW algorithm 
+Entering iteration 1
+Solving subproblems 
+subproblems took  1.346e+07
+Find optimal budget allocation 
+budget allocation took  175296
+Constructing primal 
+constructing primal took  1.38406e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.58463e+07
+execution time of average primal update was 0
+execution time of slack update was 1.65808e+06
+At iteration 1, max infeasiblity was 0 on constraint -1
+execution time of worst infeasibility update was 3168
+execution time of weight update was 158976
+execution time of global problem update was 5.07613e+06
+min weight = 0.999987, max weight = 0.999987
+Entering iteration 2
+Solving subproblems 
+subproblems took  5.89194e+06
+Find optimal budget allocation 
+budget allocation took  193120
+Constructing primal 
+constructing primal took  1.41331e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.33104e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67462e+06
+At iteration 2, max infeasiblity was 0 on constraint -1
+execution time of worst infeasibility update was 2976
+execution time of weight update was 159040
+execution time of global problem update was 5.08067e+06
+min weight = 0.999975, max weight = 0.999975
+Entering iteration 3
+Solving subproblems 
+subproblems took  5.9423e+06
+Find optimal budget allocation 
+budget allocation took  176256
+Constructing primal 
+constructing primal took  1.42784e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.37923e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67229e+06
+At iteration 3, max infeasiblity was 0 on constraint -1
+execution time of worst infeasibility update was 3264
+execution time of weight update was 159008
+execution time of global problem update was 5.07494e+06
+min weight = 0.999962, max weight = 0.999991
+Entering iteration 4
+Solving subproblems 
+subproblems took  5.97197e+06
+Find optimal budget allocation 
+budget allocation took  194432
+Constructing primal 
+constructing primal took  1.40547e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.41235e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67162e+06
+At iteration 4, max infeasiblity was 0.43834 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 159072
+execution time of global problem update was 5.07219e+06
+min weight = 0.99995, max weight = 1.00002
+Entering iteration 5
+Solving subproblems 
+subproblems took  6.01789e+06
+Find optimal budget allocation 
+budget allocation took  193504
+Constructing primal 
+constructing primal took  1.41338e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.45747e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67142e+06
+At iteration 5, max infeasiblity was 0.979156 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 159104
+execution time of global problem update was 5.07674e+06
+min weight = 0.999937, max weight = 1.00006
+Entering iteration 6
+Solving subproblems 
+subproblems took  6.05875e+06
+Find optimal budget allocation 
+budget allocation took  160576
+Constructing primal 
+constructing primal took  1.40285e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.45763e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67107e+06
+At iteration 6, max infeasiblity was 1.41641 on constraint 214656
+execution time of worst infeasibility update was 3168
+execution time of weight update was 158912
+execution time of global problem update was 5.07152e+06
+min weight = 0.999925, max weight = 1.00011
+Entering iteration 7
+Solving subproblems 
+subproblems took  6.09891e+06
+Find optimal budget allocation 
+budget allocation took  159872
+Constructing primal 
+constructing primal took  1.39571e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.4953e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67194e+06
+At iteration 7, max infeasiblity was 1.7757 on constraint 214656
+execution time of worst infeasibility update was 2976
+execution time of weight update was 158944
+execution time of global problem update was 5.07434e+06
+min weight = 0.999912, max weight = 1.00015
+Entering iteration 8
+Solving subproblems 
+subproblems took  6.15018e+06
+Find optimal budget allocation 
+budget allocation took  160832
+Constructing primal 
+constructing primal took  1.39955e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.54294e+06
+execution time of average primal update was 0
+execution time of slack update was 1.6727e+06
+At iteration 8, max infeasiblity was 2.07599 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 159040
+execution time of global problem update was 5.07283e+06
+min weight = 0.9999, max weight = 1.00021
+Entering iteration 9
+Solving subproblems 
+subproblems took  6.19504e+06
+Find optimal budget allocation 
+budget allocation took  194656
+Constructing primal 
+constructing primal took  1.41101e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.63946e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67194e+06
+At iteration 9, max infeasiblity was 2.33086 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 158976
+execution time of global problem update was 5.07318e+06
+min weight = 0.999887, max weight = 1.00026
+Entering iteration 10
+Solving subproblems 
+subproblems took  6.23901e+06
+Find optimal budget allocation 
+budget allocation took  198656
+Constructing primal 
+constructing primal took  1.40963e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.68758e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67082e+06
+At iteration 10, max infeasiblity was 2.5501 on constraint 214656
+execution time of worst infeasibility update was 3008
+execution time of weight update was 158880
+execution time of global problem update was 5.07555e+06
+min weight = 0.999874, max weight = 1.00032
+Entering iteration 11
+Solving subproblems 
+subproblems took  6.29184e+06
+Find optimal budget allocation 
+budget allocation took  198656
+Constructing primal 
+constructing primal took  1.41283e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.74739e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67053e+06
+At iteration 11, max infeasiblity was 2.74089 on constraint 214656
+execution time of worst infeasibility update was 3168
+execution time of weight update was 159712
+execution time of global problem update was 5.07789e+06
+min weight = 0.999862, max weight = 1.00037
+Entering iteration 12
+Solving subproblems 
+subproblems took  6.35667e+06
+Find optimal budget allocation 
+budget allocation took  160160
+Constructing primal 
+constructing primal took  1.39936e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.75008e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67491e+06
+At iteration 12, max infeasiblity was 2.90859 on constraint 214656
+execution time of worst infeasibility update was 2976
+execution time of weight update was 159232
+execution time of global problem update was 5.07578e+06
+min weight = 0.999849, max weight = 1.00043
+Entering iteration 13
+Solving subproblems 
+subproblems took  6.42957e+06
+Find optimal budget allocation 
+budget allocation took  160992
+Constructing primal 
+constructing primal took  1.39626e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.82058e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67286e+06
+At iteration 13, max infeasiblity was 3.05731 on constraint 214656
+execution time of worst infeasibility update was 3264
+execution time of weight update was 158944
+execution time of global problem update was 5.06998e+06
+min weight = 0.999837, max weight = 1.00049
+Entering iteration 14
+Solving subproblems 
+subproblems took  6.51754e+06
+Find optimal budget allocation 
+budget allocation took  164960
+Constructing primal 
+constructing primal took  1.40928e+06
+Dual Value = 125000
+execution time of relaxation computation was 8.92592e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67658e+06
+At iteration 14, max infeasiblity was 3.19019 on constraint 214656
+execution time of worst infeasibility update was 3040
+execution time of weight update was 159008
+execution time of global problem update was 5.07773e+06
+min weight = 0.999824, max weight = 1.00056
+Entering iteration 15
+Solving subproblems 
+subproblems took  6.63299e+06
+Find optimal budget allocation 
+budget allocation took  160480
+Constructing primal 
+constructing primal took  1.408e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.04368e+06
+execution time of average primal update was 0
+execution time of slack update was 1.68445e+06
+At iteration 15, max infeasiblity was 3.30975 on constraint 214656
+execution time of worst infeasibility update was 3296
+execution time of weight update was 159008
+execution time of global problem update was 5.07558e+06
+min weight = 0.999812, max weight = 1.00062
+Entering iteration 16
+Solving subproblems 
+subproblems took  6.74291e+06
+Find optimal budget allocation 
+budget allocation took  193952
+Constructing primal 
+constructing primal took  1.41158e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.19062e+06
+execution time of average primal update was 0
+execution time of slack update was 1.68003e+06
+At iteration 16, max infeasiblity was 3.41795 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 159008
+execution time of global problem update was 5.07882e+06
+min weight = 0.999799, max weight = 1.00068
+Entering iteration 17
+Solving subproblems 
+subproblems took  6.77856e+06
+Find optimal budget allocation 
+budget allocation took  172288
+Constructing primal 
+constructing primal took  1.40726e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.20048e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67827e+06
+At iteration 17, max infeasiblity was 3.51641 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 161344
+execution time of global problem update was 5.07683e+06
+min weight = 0.999786, max weight = 1.00074
+Entering iteration 18
+Solving subproblems 
+subproblems took  6.8495e+06
+Find optimal budget allocation 
+budget allocation took  195232
+Constructing primal 
+constructing primal took  1.41987e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.30682e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67955e+06
+At iteration 18, max infeasiblity was 3.60644 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 158912
+execution time of global problem update was 5.07802e+06
+min weight = 0.999774, max weight = 1.00081
+Entering iteration 19
+Solving subproblems 
+subproblems took  6.88883e+06
+Find optimal budget allocation 
+budget allocation took  174016
+Constructing primal 
+constructing primal took  1.43078e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.33568e+06
+execution time of average primal update was 0
+execution time of slack update was 1.68531e+06
+At iteration 19, max infeasiblity was 3.68912 on constraint 214656
+execution time of worst infeasibility update was 3264
+execution time of weight update was 158976
+execution time of global problem update was 5.07507e+06
+min weight = 0.999761, max weight = 1.00087
+Entering iteration 20
+Solving subproblems 
+subproblems took  6.97696e+06
+Find optimal budget allocation 
+budget allocation took  196800
+Constructing primal 
+constructing primal took  1.42016e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.43635e+06
+execution time of average primal update was 0
+execution time of slack update was 1.67725e+06
+At iteration 20, max infeasiblity was 3.76534 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 158912
+execution time of global problem update was 5.07725e+06
+min weight = 0.999749, max weight = 1.00094
+Entering iteration 21
+Solving subproblems 
+subproblems took  7.02016e+06
+Find optimal budget allocation 
+budget allocation took  160448
+Constructing primal 
+constructing primal took  1.40627e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.43302e+06
+execution time of average primal update was 0
+execution time of slack update was 1.68678e+06
+At iteration 21, max infeasiblity was 3.83588 on constraint 214656
+execution time of worst infeasibility update was 3264
+execution time of weight update was 158976
+execution time of global problem update was 5.0759e+06
+min weight = 0.999736, max weight = 1.001
+Entering iteration 22
+Solving subproblems 
+subproblems took  7.10214e+06
+Find optimal budget allocation 
+budget allocation took  173888
+Constructing primal 
+constructing primal took  1.4231e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.53978e+06
+execution time of average primal update was 0
+execution time of slack update was 1.66938e+06
+At iteration 22, max infeasiblity was 3.90135 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 158912
+execution time of global problem update was 5.07053e+06
+min weight = 0.999724, max weight = 1.00107
+Entering iteration 23
+Solving subproblems 
+subproblems took  7.1287e+06
+Find optimal budget allocation 
+budget allocation took  160448
+Constructing primal 
+constructing primal took  1.39482e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.51539e+06
+execution time of average primal update was 0
+execution time of slack update was 1.66752e+06
+At iteration 23, max infeasiblity was 3.96232 on constraint 214656
+execution time of worst infeasibility update was 3264
+execution time of weight update was 158976
+execution time of global problem update was 5.0681e+06
+min weight = 0.999711, max weight = 1.00113
+Entering iteration 24
+Solving subproblems 
+subproblems took  7.22925e+06
+Find optimal budget allocation 
+budget allocation took  161344
+Constructing primal 
+constructing primal took  1.39718e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.61997e+06
+execution time of average primal update was 0
+execution time of slack update was 1.66573e+06
+At iteration 24, max infeasiblity was 4.01926 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 160000
+execution time of global problem update was 5.06893e+06
+min weight = 0.999699, max weight = 1.0012
+Entering iteration 25
+Solving subproblems 
+subproblems took  7.26176e+06
+Find optimal budget allocation 
+budget allocation took  160000
+Constructing primal 
+constructing primal took  1.39776e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.6521e+06
+execution time of average primal update was 0
+execution time of slack update was 1.66861e+06
+At iteration 25, max infeasiblity was 4.07256 on constraint 214656
+execution time of worst infeasibility update was 3008
+execution time of weight update was 158848
+execution time of global problem update was 5.06445e+06
+min weight = 0.999686, max weight = 1.00127
+Entering iteration 26
+Solving subproblems 
+subproblems took  7.3319e+06
+Find optimal budget allocation 
+budget allocation took  196096
+Constructing primal 
+constructing primal took  1.3959e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.75872e+06
+execution time of average primal update was 0
+execution time of slack update was 1.66906e+06
+At iteration 26, max infeasiblity was 4.12257 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 158784
+execution time of global problem update was 5.06515e+06
+min weight = 0.999673, max weight = 1.00133
+Entering iteration 27
+Solving subproblems 
+subproblems took  7.37946e+06
+Find optimal budget allocation 
+budget allocation took  197824
+Constructing primal 
+constructing primal took  1.4e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.8096e+06
+execution time of average primal update was 0
+execution time of slack update was 1.6647e+06
+At iteration 27, max infeasiblity was 4.16961 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 159744
+execution time of global problem update was 5.06483e+06
+min weight = 0.999661, max weight = 1.0014
+Entering iteration 28
+Solving subproblems 
+subproblems took  7.47565e+06
+Find optimal budget allocation 
+budget allocation took  194176
+Constructing primal 
+constructing primal took  1.39795e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.89901e+06
+execution time of average primal update was 0
+execution time of slack update was 1.66752e+06
+At iteration 28, max infeasiblity was 4.21394 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 158912
+execution time of global problem update was 5.06637e+06
+min weight = 0.999648, max weight = 1.00147
+Entering iteration 29
+Solving subproblems 
+subproblems took  7.52992e+06
+Find optimal budget allocation 
+budget allocation took  196416
+Constructing primal 
+constructing primal took  1.41171e+06
+Dual Value = 125000
+execution time of relaxation computation was 9.98061e+06
+execution time of average primal update was 0
+execution time of slack update was 1.66822e+06
+At iteration 29, max infeasiblity was 4.2558 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 158912
+execution time of global problem update was 5.0695e+06
+min weight = 0.999636, max weight = 1.00154
+Entering iteration 30
+Solving subproblems 
+subproblems took  7.62778e+06
+Find optimal budget allocation 
+budget allocation took  160512
+Constructing primal 
+constructing primal took  1.39942e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.00282e+07
+execution time of average primal update was 0
+execution time of slack update was 1.66963e+06
+At iteration 30, max infeasiblity was 4.2954 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 158848
+execution time of global problem update was 5.06598e+06
+min weight = 0.999623, max weight = 1.0016
+Entering iteration 31
+Solving subproblems 
+subproblems took  7.68198e+06
+Find optimal budget allocation 
+budget allocation took  160064
+Constructing primal 
+constructing primal took  1.39494e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.0074e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67021e+06
+At iteration 31, max infeasiblity was 4.33292 on constraint 214656
+execution time of worst infeasibility update was 3136
+execution time of weight update was 158912
+execution time of global problem update was 5.07245e+06
+min weight = 0.999611, max weight = 1.00167
+Entering iteration 32
+Solving subproblems 
+subproblems took  7.79872e+06
+Find optimal budget allocation 
+budget allocation took  171328
+Constructing primal 
+constructing primal took  1.39981e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.0202e+07
+execution time of average primal update was 0
+execution time of slack update was 1.66874e+06
+At iteration 32, max infeasiblity was 4.36854 on constraint 214656
+execution time of worst infeasibility update was 3264
+execution time of weight update was 158912
+execution time of global problem update was 5.06611e+06
+min weight = 0.999598, max weight = 1.00174
+Entering iteration 33
+Solving subproblems 
+subproblems took  8.01651e+06
+Find optimal budget allocation 
+budget allocation took  159744
+Constructing primal 
+constructing primal took  1.40083e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.04138e+07
+execution time of average primal update was 0
+execution time of slack update was 1.66541e+06
+At iteration 33, max infeasiblity was 4.40239 on constraint 214656
+execution time of worst infeasibility update was 3008
+execution time of weight update was 161088
+execution time of global problem update was 5.0711e+06
+min weight = 0.999586, max weight = 1.00181
+Entering iteration 34
+Solving subproblems 
+subproblems took  8.07814e+06
+Find optimal budget allocation 
+budget allocation took  199232
+Constructing primal 
+constructing primal took  1.3984e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.05078e+07
+execution time of average primal update was 0
+execution time of slack update was 1.66899e+06
+At iteration 34, max infeasiblity was 4.43461 on constraint 214656
+execution time of worst infeasibility update was 3008
+execution time of weight update was 158976
+execution time of global problem update was 5.07008e+06
+min weight = 0.999573, max weight = 1.00188
+Entering iteration 35
+Solving subproblems 
+subproblems took  8.13242e+06
+Find optimal budget allocation 
+budget allocation took  159616
+Constructing primal 
+constructing primal took  1.39846e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.05224e+07
+execution time of average primal update was 0
+execution time of slack update was 1.66944e+06
+At iteration 35, max infeasiblity was 4.46532 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 158912
+execution time of global problem update was 5.06982e+06
+min weight = 0.99956, max weight = 1.00195
+Entering iteration 36
+Solving subproblems 
+subproblems took  8.2425e+06
+Find optimal budget allocation 
+budget allocation took  165312
+Constructing primal 
+constructing primal took  1.39974e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.06434e+07
+execution time of average primal update was 0
+execution time of slack update was 1.6688e+06
+At iteration 36, max infeasiblity was 4.49463 on constraint 214656
+execution time of worst infeasibility update was 3008
+execution time of weight update was 158976
+execution time of global problem update was 5.06848e+06
+min weight = 0.999548, max weight = 1.00201
+Entering iteration 37
+Solving subproblems 
+subproblems took  8.26829e+06
+Find optimal budget allocation 
+budget allocation took  160576
+Constructing primal 
+constructing primal took  1.4009e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.06668e+07
+execution time of average primal update was 0
+execution time of slack update was 1.6679e+06
+At iteration 37, max infeasiblity was 4.52264 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 160448
+execution time of global problem update was 5.07213e+06
+min weight = 0.999535, max weight = 1.00208
+Entering iteration 38
+Solving subproblems 
+subproblems took  8.32858e+06
+Find optimal budget allocation 
+budget allocation took  159936
+Constructing primal 
+constructing primal took  1.39763e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.07196e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67264e+06
+At iteration 38, max infeasiblity was 4.54943 on constraint 214656
+execution time of worst infeasibility update was 3264
+execution time of weight update was 159168
+execution time of global problem update was 5.07526e+06
+min weight = 0.999523, max weight = 1.00215
+Entering iteration 39
+Solving subproblems 
+subproblems took  8.38445e+06
+Find optimal budget allocation 
+budget allocation took  163328
+Constructing primal 
+constructing primal took  1.39853e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.07797e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67302e+06
+At iteration 39, max infeasiblity was 4.57508 on constraint 214656
+execution time of worst infeasibility update was 3008
+execution time of weight update was 159040
+execution time of global problem update was 5.07494e+06
+min weight = 0.99951, max weight = 1.00222
+Entering iteration 40
+Solving subproblems 
+subproblems took  8.4864e+06
+Find optimal budget allocation 
+budget allocation took  189888
+Constructing primal 
+constructing primal took  1.40474e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.09149e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67232e+06
+At iteration 40, max infeasiblity was 4.59967 on constraint 214656
+execution time of worst infeasibility update was 3264
+execution time of weight update was 159104
+execution time of global problem update was 5.07302e+06
+min weight = 0.999498, max weight = 1.00229
+Entering iteration 41
+Solving subproblems 
+subproblems took  8.5095e+06
+Find optimal budget allocation 
+budget allocation took  168192
+Constructing primal 
+constructing primal took  1.41638e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.09277e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67142e+06
+At iteration 41, max infeasiblity was 4.61917 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 159168
+execution time of global problem update was 5.07322e+06
+min weight = 0.999485, max weight = 1.00236
+Entering iteration 42
+Solving subproblems 
+subproblems took  8.55936e+06
+Find optimal budget allocation 
+budget allocation took  177536
+Constructing primal 
+constructing primal took  1.42861e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.09987e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67462e+06
+At iteration 42, max infeasiblity was 4.6341 on constraint 214656
+execution time of worst infeasibility update was 2944
+execution time of weight update was 159104
+execution time of global problem update was 5.07296e+06
+min weight = 0.999472, max weight = 1.00242
+Entering iteration 43
+Solving subproblems 
+subproblems took  8.64781e+06
+Find optimal budget allocation 
+budget allocation took  163392
+Constructing primal 
+constructing primal took  1.4391e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.10861e+07
+execution time of average primal update was 0
+execution time of slack update was 1.69811e+06
+At iteration 43, max infeasiblity was 4.64497 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 159104
+execution time of global problem update was 5.12557e+06
+min weight = 0.99946, max weight = 1.00249
+Entering iteration 44
+Solving subproblems 
+subproblems took  8.76461e+06
+Find optimal budget allocation 
+budget allocation took  203904
+Constructing primal 
+constructing primal took  1.43117e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.12432e+07
+execution time of average primal update was 0
+execution time of slack update was 1.68954e+06
+At iteration 44, max infeasiblity was 4.65219 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 159040
+execution time of global problem update was 5.12582e+06
+min weight = 0.999447, max weight = 1.00255
+Entering iteration 45
+Solving subproblems 
+subproblems took  8.75066e+06
+Find optimal budget allocation 
+budget allocation took  165184
+Constructing primal 
+constructing primal took  1.41062e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.11708e+07
+execution time of average primal update was 0
+execution time of slack update was 1.68243e+06
+At iteration 45, max infeasiblity was 4.65614 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 158976
+execution time of global problem update was 5.12403e+06
+min weight = 0.999435, max weight = 1.00261
+Entering iteration 46
+Solving subproblems 
+subproblems took  8.88755e+06
+Find optimal budget allocation 
+budget allocation took  166976
+Constructing primal 
+constructing primal took  1.47853e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.1375e+07
+execution time of average primal update was 0
+execution time of slack update was 1.76096e+06
+At iteration 46, max infeasiblity was 4.65716 on constraint 214656
+execution time of worst infeasibility update was 3392
+execution time of weight update was 158976
+execution time of global problem update was 5.16915e+06
+min weight = 0.999422, max weight = 1.00267
+Entering iteration 47
+Solving subproblems 
+subproblems took  8.86246e+06
+Find optimal budget allocation 
+budget allocation took  161344
+Constructing primal 
+constructing primal took  1.41786e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.12941e+07
+execution time of average primal update was 0
+execution time of slack update was 1.68672e+06
+At iteration 47, max infeasiblity was 4.65557 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 161024
+execution time of global problem update was 5.1344e+06
+min weight = 0.99941, max weight = 1.00273
+Entering iteration 48
+Solving subproblems 
+subproblems took  8.96064e+06
+Find optimal budget allocation 
+budget allocation took  160768
+Constructing primal 
+constructing primal took  1.46938e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.14402e+07
+execution time of average primal update was 0
+execution time of slack update was 1.76288e+06
+At iteration 48, max infeasiblity was 4.65161 on constraint 214656
+execution time of worst infeasibility update was 3392
+execution time of weight update was 158848
+execution time of global problem update was 5.32198e+06
+min weight = 0.999397, max weight = 1.00278
+Entering iteration 49
+Solving subproblems 
+subproblems took  9.05286e+06
+Find optimal budget allocation 
+budget allocation took  208320
+Constructing primal 
+constructing primal took  1.45453e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.16038e+07
+execution time of average primal update was 0
+execution time of slack update was 1.73504e+06
+At iteration 49, max infeasiblity was 4.64554 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 158976
+execution time of global problem update was 5.21549e+06
+min weight = 0.999385, max weight = 1.00284
+Entering iteration 50
+Solving subproblems 
+subproblems took  9.07469e+06
+Find optimal budget allocation 
+budget allocation took  189184
+Constructing primal 
+constructing primal took  1.42554e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.155e+07
+execution time of average primal update was 0
+execution time of slack update was 1.7376e+06
+At iteration 50, max infeasiblity was 4.63757 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 160768
+execution time of global problem update was 5.21651e+06
+min weight = 0.999372, max weight = 1.00289
+Entering iteration 51
+Solving subproblems 
+subproblems took  9.14714e+06
+Find optimal budget allocation 
+budget allocation took  162176
+Constructing primal 
+constructing primal took  1.41811e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.15948e+07
+execution time of average primal update was 0
+execution time of slack update was 1.69997e+06
+At iteration 51, max infeasiblity was 4.6279 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 158848
+execution time of global problem update was 5.2032e+06
+min weight = 0.999359, max weight = 1.00294
+Entering iteration 52
+Solving subproblems 
+subproblems took  9.10413e+06
+Find optimal budget allocation 
+budget allocation took  168192
+Constructing primal 
+constructing primal took  1.44307e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.15823e+07
+execution time of average primal update was 0
+execution time of slack update was 1.71418e+06
+At iteration 52, max infeasiblity was 4.61669 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 158976
+execution time of global problem update was 5.2425e+06
+min weight = 0.999347, max weight = 1.00299
+Entering iteration 53
+Solving subproblems 
+subproblems took  9.29728e+06
+Find optimal budget allocation 
+budget allocation took  203136
+Constructing primal 
+constructing primal took  1.45254e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.18222e+07
+execution time of average primal update was 0
+execution time of slack update was 1.72096e+06
+At iteration 53, max infeasiblity was 4.60411 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 158976
+execution time of global problem update was 5.17248e+06
+min weight = 0.999334, max weight = 1.00304
+Entering iteration 54
+Solving subproblems 
+subproblems took  9.32275e+06
+Find optimal budget allocation 
+budget allocation took  161536
+Constructing primal 
+constructing primal took  1.43795e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.17814e+07
+execution time of average primal update was 0
+execution time of slack update was 1.70982e+06
+At iteration 54, max infeasiblity was 4.5903 on constraint 214656
+execution time of worst infeasibility update was 3584
+execution time of weight update was 159104
+execution time of global problem update was 5.34067e+06
+min weight = 0.999322, max weight = 1.00309
+Entering iteration 55
+Solving subproblems 
+subproblems took  9.37306e+06
+Find optimal budget allocation 
+budget allocation took  203264
+Constructing primal 
+constructing primal took  1.42822e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.18643e+07
+execution time of average primal update was 0
+execution time of slack update was 1.69485e+06
+At iteration 55, max infeasiblity was 4.57539 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 159104
+execution time of global problem update was 5.27578e+06
+min weight = 0.999309, max weight = 1.00313
+Entering iteration 56
+Solving subproblems 
+subproblems took  9.48531e+06
+Find optimal budget allocation 
+budget allocation took  202880
+Constructing primal 
+constructing primal took  1.43744e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.19837e+07
+execution time of average primal update was 0
+execution time of slack update was 1.70035e+06
+At iteration 56, max infeasiblity was 4.55949 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 159104
+execution time of global problem update was 5.14701e+06
+min weight = 0.999297, max weight = 1.00318
+Entering iteration 57
+Solving subproblems 
+subproblems took  9.49043e+06
+Find optimal budget allocation 
+budget allocation took  160640
+Constructing primal 
+constructing primal took  1.42592e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.19249e+07
+execution time of average primal update was 0
+execution time of slack update was 1.72032e+06
+At iteration 57, max infeasiblity was 4.5427 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 158976
+execution time of global problem update was 5.1575e+06
+min weight = 0.999284, max weight = 1.00323
+Entering iteration 58
+Solving subproblems 
+subproblems took  9.52346e+06
+Find optimal budget allocation 
+budget allocation took  167040
+Constructing primal 
+constructing primal took  1.42502e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.19706e+07
+execution time of average primal update was 0
+execution time of slack update was 1.74579e+06
+At iteration 58, max infeasiblity was 4.52513 on constraint 214656
+execution time of worst infeasibility update was 3712
+execution time of weight update was 159488
+execution time of global problem update was 5.35642e+06
+min weight = 0.999272, max weight = 1.00327
+Entering iteration 59
+Solving subproblems 
+subproblems took  9.63891e+06
+Find optimal budget allocation 
+budget allocation took  161536
+Constructing primal 
+constructing primal took  1.45267e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.21435e+07
+execution time of average primal update was 0
+execution time of slack update was 1.7184e+06
+At iteration 59, max infeasiblity was 4.50685 on constraint 214656
+execution time of worst infeasibility update was 2944
+execution time of weight update was 159104
+execution time of global problem update was 5.19142e+06
+min weight = 0.999259, max weight = 1.00331
+Entering iteration 60
+Solving subproblems 
+subproblems took  9.78381e+06
+Find optimal budget allocation 
+budget allocation took  168448
+Constructing primal 
+constructing primal took  1.49197e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.23108e+07
+execution time of average primal update was 0
+execution time of slack update was 1.74528e+06
+At iteration 60, max infeasiblity was 4.48794 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 159104
+execution time of global problem update was 5.13984e+06
+min weight = 0.999247, max weight = 1.00335
+Entering iteration 61
+Solving subproblems 
+subproblems took  9.73018e+06
+Find optimal budget allocation 
+budget allocation took  188288
+Constructing primal 
+constructing primal took  1.4624e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.22371e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75002e+06
+At iteration 61, max infeasiblity was 4.46848 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 159104
+execution time of global problem update was 5.2064e+06
+min weight = 0.999234, max weight = 1.0034
+Entering iteration 62
+Solving subproblems 
+subproblems took  9.76051e+06
+Find optimal budget allocation 
+budget allocation took  199936
+Constructing primal 
+constructing primal took  1.43757e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.22688e+07
+execution time of average primal update was 0
+execution time of slack update was 1.68858e+06
+At iteration 62, max infeasiblity was 4.44853 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 159232
+execution time of global problem update was 5.15341e+06
+min weight = 0.999221, max weight = 1.00344
+Entering iteration 63
+Solving subproblems 
+subproblems took  9.83706e+06
+Find optimal budget allocation 
+budget allocation took  160896
+Constructing primal 
+constructing primal took  1.44538e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.23063e+07
+execution time of average primal update was 0
+execution time of slack update was 1.71098e+06
+At iteration 63, max infeasiblity was 4.42815 on constraint 214656
+execution time of worst infeasibility update was 3712
+execution time of weight update was 159360
+execution time of global problem update was 5.15686e+06
+min weight = 0.999209, max weight = 1.00348
+Entering iteration 64
+Solving subproblems 
+subproblems took  9.94266e+06
+Find optimal budget allocation 
+budget allocation took  187392
+Constructing primal 
+constructing primal took  1.4432e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.24374e+07
+execution time of average primal update was 0
+execution time of slack update was 1.71866e+06
+At iteration 64, max infeasiblity was 4.40738 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 159232
+execution time of global problem update was 5.16211e+06
+min weight = 0.999196, max weight = 1.00351
+Entering iteration 65
+Solving subproblems 
+subproblems took  1.01252e+07
+Find optimal budget allocation 
+budget allocation took  187008
+Constructing primal 
+constructing primal took  1.50221e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.2661e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75667e+06
+At iteration 65, max infeasiblity was 4.38629 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 159104
+execution time of global problem update was 5.18374e+06
+min weight = 0.999184, max weight = 1.00355
+Entering iteration 66
+Solving subproblems 
+subproblems took  1.03748e+07
+Find optimal budget allocation 
+budget allocation took  190720
+Constructing primal 
+constructing primal took  1.46202e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.28928e+07
+execution time of average primal update was 0
+execution time of slack update was 1.72646e+06
+At iteration 66, max infeasiblity was 4.36491 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 159104
+execution time of global problem update was 5.16262e+06
+min weight = 0.999171, max weight = 1.00359
+Entering iteration 67
+Solving subproblems 
+subproblems took  1.0556e+07
+Find optimal budget allocation 
+budget allocation took  190592
+Constructing primal 
+constructing primal took  1.50131e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.30911e+07
+execution time of average primal update was 0
+execution time of slack update was 1.74362e+06
+At iteration 67, max infeasiblity was 4.34328 on constraint 214656
+execution time of worst infeasibility update was 3584
+execution time of weight update was 159232
+execution time of global problem update was 5.16672e+06
+min weight = 0.999159, max weight = 1.00363
+Entering iteration 68
+Solving subproblems 
+subproblems took  1.06228e+07
+Find optimal budget allocation 
+budget allocation took  188800
+Constructing primal 
+constructing primal took  1.41274e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.30866e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67142e+06
+At iteration 68, max infeasiblity was 4.32144 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 159104
+execution time of global problem update was 5.05344e+06
+min weight = 0.999146, max weight = 1.00366
+Entering iteration 69
+Solving subproblems 
+subproblems took  1.05628e+07
+Find optimal budget allocation 
+budget allocation took  197760
+Constructing primal 
+constructing primal took  1.40045e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.29939e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67373e+06
+At iteration 69, max infeasiblity was 4.29942 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 159360
+execution time of global problem update was 5.0903e+06
+min weight = 0.999134, max weight = 1.0037
+Entering iteration 70
+Solving subproblems 
+subproblems took  1.07805e+07
+Find optimal budget allocation 
+budget allocation took  167936
+Constructing primal 
+constructing primal took  1.4729e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.33089e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75603e+06
+At iteration 70, max infeasiblity was 4.27725 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 159360
+execution time of global problem update was 5.28563e+06
+min weight = 0.999121, max weight = 1.00373
+Entering iteration 71
+Solving subproblems 
+subproblems took  1.08399e+07
+Find optimal budget allocation 
+budget allocation took  167936
+Constructing primal 
+constructing primal took  1.48045e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.3377e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75744e+06
+At iteration 71, max infeasiblity was 4.25497 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 159360
+execution time of global problem update was 5.28704e+06
+min weight = 0.999108, max weight = 1.00376
+Entering iteration 72
+Solving subproblems 
+subproblems took  1.09446e+07
+Find optimal budget allocation 
+budget allocation took  174464
+Constructing primal 
+constructing primal took  1.55366e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.35626e+07
+execution time of average primal update was 0
+execution time of slack update was 1.8153e+06
+At iteration 72, max infeasiblity was 4.23259 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 161280
+execution time of global problem update was 5.33069e+06
+min weight = 0.999096, max weight = 1.0038
+Entering iteration 73
+Solving subproblems 
+subproblems took  1.11841e+07
+Find optimal budget allocation 
+budget allocation took  179840
+Constructing primal 
+constructing primal took  1.50234e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.37996e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75603e+06
+At iteration 73, max infeasiblity was 4.21014 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 159488
+execution time of global problem update was 5.28819e+06
+min weight = 0.999083, max weight = 1.00383
+Entering iteration 74
+Solving subproblems 
+subproblems took  1.1009e+07
+Find optimal budget allocation 
+budget allocation took  202752
+Constructing primal 
+constructing primal took  1.48467e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.35933e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75539e+06
+At iteration 74, max infeasiblity was 4.18765 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 159104
+execution time of global problem update was 5.28192e+06
+min weight = 0.999071, max weight = 1.00386
+Entering iteration 75
+Solving subproblems 
+subproblems took  1.10641e+07
+Find optimal budget allocation 
+budget allocation took  205952
+Constructing primal 
+constructing primal took  1.49222e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.36425e+07
+execution time of average primal update was 0
+execution time of slack update was 1.76294e+06
+At iteration 75, max infeasiblity was 4.16512 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 160768
+execution time of global problem update was 5.2937e+06
+min weight = 0.999058, max weight = 1.00389
+Entering iteration 76
+Solving subproblems 
+subproblems took  1.11355e+07
+Find optimal budget allocation 
+budget allocation took  168064
+Constructing primal 
+constructing primal took  1.48403e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.36813e+07
+execution time of average primal update was 0
+execution time of slack update was 1.76717e+06
+At iteration 76, max infeasiblity was 4.14258 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 159232
+execution time of global problem update was 5.29088e+06
+min weight = 0.999046, max weight = 1.00392
+Entering iteration 77
+Solving subproblems 
+subproblems took  1.11729e+07
+Find optimal budget allocation 
+budget allocation took  166912
+Constructing primal 
+constructing primal took  1.47162e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.36922e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75718e+06
+At iteration 77, max infeasiblity was 4.12004 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 159360
+execution time of global problem update was 5.2736e+06
+min weight = 0.999033, max weight = 1.00395
+Entering iteration 78
+Solving subproblems 
+subproblems took  1.12381e+07
+Find optimal budget allocation 
+budget allocation took  169216
+Constructing primal 
+constructing primal took  1.47213e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.3759e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75693e+06
+At iteration 78, max infeasiblity was 4.09752 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 159232
+execution time of global problem update was 5.28755e+06
+min weight = 0.999021, max weight = 1.00398
+Entering iteration 79
+Solving subproblems 
+subproblems took  1.13178e+07
+Find optimal budget allocation 
+budget allocation took  167040
+Constructing primal 
+constructing primal took  1.47558e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.38417e+07
+execution time of average primal update was 0
+execution time of slack update was 1.7527e+06
+At iteration 79, max infeasiblity was 4.07503 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 159232
+execution time of global problem update was 5.27642e+06
+min weight = 0.999008, max weight = 1.00401
+Entering iteration 80
+Solving subproblems 
+subproblems took  1.1428e+07
+Find optimal budget allocation 
+budget allocation took  194688
+Constructing primal 
+constructing primal took  1.48122e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.39877e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75654e+06
+At iteration 80, max infeasiblity was 4.05259 on constraint 214656
+execution time of worst infeasibility update was 3584
+execution time of weight update was 159360
+execution time of global problem update was 5.2887e+06
+min weight = 0.998995, max weight = 1.00404
+Entering iteration 81
+Solving subproblems 
+subproblems took  1.14299e+07
+Find optimal budget allocation 
+budget allocation took  162688
+Constructing primal 
+constructing primal took  1.44166e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.39176e+07
+execution time of average primal update was 0
+execution time of slack update was 1.72621e+06
+At iteration 81, max infeasiblity was 4.0302 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 161152
+execution time of global problem update was 5.15354e+06
+min weight = 0.998983, max weight = 1.00407
+Entering iteration 82
+Solving subproblems 
+subproblems took  1.14065e+07
+Find optimal budget allocation 
+budget allocation took  202240
+Constructing primal 
+constructing primal took  1.42874e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.38906e+07
+execution time of average primal update was 0
+execution time of slack update was 1.68794e+06
+At iteration 82, max infeasiblity was 4.00787 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 159232
+execution time of global problem update was 5.13715e+06
+min weight = 0.99897, max weight = 1.0041
+Entering iteration 83
+Solving subproblems 
+subproblems took  1.14565e+07
+Find optimal budget allocation 
+budget allocation took  181760
+Constructing primal 
+constructing primal took  1.44448e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.39357e+07
+execution time of average primal update was 0
+execution time of slack update was 1.68307e+06
+At iteration 83, max infeasiblity was 3.98562 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 159232
+execution time of global problem update was 5.11168e+06
+min weight = 0.998958, max weight = 1.00412
+Entering iteration 84
+Solving subproblems 
+subproblems took  1.15502e+07
+Find optimal budget allocation 
+budget allocation took  164864
+Constructing primal 
+constructing primal took  1.47507e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.40406e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75808e+06
+At iteration 84, max infeasiblity was 3.96345 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 159232
+execution time of global problem update was 5.28333e+06
+min weight = 0.998945, max weight = 1.00415
+Entering iteration 85
+Solving subproblems 
+subproblems took  1.16173e+07
+Find optimal budget allocation 
+budget allocation took  201600
+Constructing primal 
+constructing primal took  1.424e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.4073e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67962e+06
+At iteration 85, max infeasiblity was 3.94136 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 160000
+execution time of global problem update was 5.09594e+06
+min weight = 0.998933, max weight = 1.00418
+Entering iteration 86
+Solving subproblems 
+subproblems took  1.17078e+07
+Find optimal budget allocation 
+budget allocation took  164352
+Constructing primal 
+constructing primal took  1.40864e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.4132e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67654e+06
+At iteration 86, max infeasiblity was 3.91938 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 159488
+execution time of global problem update was 5.11206e+06
+min weight = 0.99892, max weight = 1.0042
+Entering iteration 87
+Solving subproblems 
+subproblems took  1.18102e+07
+Find optimal budget allocation 
+budget allocation took  161536
+Constructing primal 
+constructing primal took  1.42118e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.4256e+07
+execution time of average primal update was 0
+execution time of slack update was 1.69434e+06
+At iteration 87, max infeasiblity was 3.8975 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 158976
+execution time of global problem update was 5.11795e+06
+min weight = 0.998908, max weight = 1.00423
+Entering iteration 88
+Solving subproblems 
+subproblems took  1.19068e+07
+Find optimal budget allocation 
+budget allocation took  164864
+Constructing primal 
+constructing primal took  1.47443e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.43937e+07
+execution time of average primal update was 0
+execution time of slack update was 1.72992e+06
+At iteration 88, max infeasiblity was 3.87572 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 159104
+execution time of global problem update was 5.1287e+06
+min weight = 0.998895, max weight = 1.00425
+Entering iteration 89
+Solving subproblems 
+subproblems took  1.19913e+07
+Find optimal budget allocation 
+budget allocation took  165376
+Constructing primal 
+constructing primal took  1.41645e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.44352e+07
+execution time of average primal update was 0
+execution time of slack update was 1.6777e+06
+At iteration 89, max infeasiblity was 3.85406 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 158976
+execution time of global problem update was 5.1049e+06
+min weight = 0.998883, max weight = 1.00428
+Entering iteration 90
+Solving subproblems 
+subproblems took  1.20387e+07
+Find optimal budget allocation 
+budget allocation took  182912
+Constructing primal 
+constructing primal took  1.41197e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.44765e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67027e+06
+At iteration 90, max infeasiblity was 3.83251 on constraint 214656
+execution time of worst infeasibility update was 3584
+execution time of weight update was 158976
+execution time of global problem update was 5.15994e+06
+min weight = 0.99887, max weight = 1.0043
+Entering iteration 91
+Solving subproblems 
+subproblems took  1.21499e+07
+Find optimal budget allocation 
+budget allocation took  200704
+Constructing primal 
+constructing primal took  1.44102e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.46812e+07
+execution time of average primal update was 0
+execution time of slack update was 1.69498e+06
+At iteration 91, max infeasiblity was 3.81109 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 159104
+execution time of global problem update was 5.14163e+06
+min weight = 0.998857, max weight = 1.00432
+Entering iteration 92
+Solving subproblems 
+subproblems took  1.22401e+07
+Find optimal budget allocation 
+budget allocation took  198272
+Constructing primal 
+constructing primal took  1.41517e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.47078e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67782e+06
+At iteration 92, max infeasiblity was 3.78979 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 159616
+execution time of global problem update was 5.10477e+06
+min weight = 0.998845, max weight = 1.00435
+Entering iteration 93
+Solving subproblems 
+subproblems took  1.23036e+07
+Find optimal budget allocation 
+budget allocation took  161408
+Constructing primal 
+constructing primal took  1.41299e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.47249e+07
+execution time of average primal update was 0
+execution time of slack update was 1.67168e+06
+At iteration 93, max infeasiblity was 3.76862 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 159104
+execution time of global problem update was 5.10938e+06
+min weight = 0.998832, max weight = 1.00437
+Entering iteration 94
+Solving subproblems 
+subproblems took  1.24864e+07
+Find optimal budget allocation 
+budget allocation took  161024
+Constructing primal 
+constructing primal took  1.43258e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.49221e+07
+execution time of average primal update was 0
+execution time of slack update was 1.712e+06
+At iteration 94, max infeasiblity was 3.74758 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 159104
+execution time of global problem update was 5.15341e+06
+min weight = 0.99882, max weight = 1.00439
+Entering iteration 95
+Solving subproblems 
+subproblems took  1.25667e+07
+Find optimal budget allocation 
+budget allocation took  193280
+Constructing primal 
+constructing primal took  1.44922e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.50744e+07
+execution time of average primal update was 128
+execution time of slack update was 1.70381e+06
+At iteration 95, max infeasiblity was 3.72668 on constraint 214656
+execution time of worst infeasibility update was 3712
+execution time of weight update was 159104
+execution time of global problem update was 5.1776e+06
+min weight = 0.998807, max weight = 1.00441
+Entering iteration 96
+Solving subproblems 
+subproblems took  1.2682e+07
+Find optimal budget allocation 
+budget allocation took  164096
+Constructing primal 
+constructing primal took  1.43808e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.51379e+07
+execution time of average primal update was 0
+execution time of slack update was 1.69907e+06
+At iteration 96, max infeasiblity was 3.70591 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 160256
+execution time of global problem update was 5.18682e+06
+min weight = 0.998795, max weight = 1.00443
+Entering iteration 97
+Solving subproblems 
+subproblems took  1.27293e+07
+Find optimal budget allocation 
+budget allocation took  163200
+Constructing primal 
+constructing primal took  1.43296e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.51959e+07
+execution time of average primal update was 0
+execution time of slack update was 1.70355e+06
+At iteration 97, max infeasiblity was 3.68528 on constraint 214656
+execution time of worst infeasibility update was 3200
+execution time of weight update was 159104
+execution time of global problem update was 5.20115e+06
+min weight = 0.998782, max weight = 1.00446
+Entering iteration 98
+Solving subproblems 
+subproblems took  1.2948e+07
+Find optimal budget allocation 
+budget allocation took  165248
+Constructing primal 
+constructing primal took  1.43616e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.54065e+07
+execution time of average primal update was 0
+execution time of slack update was 1.68755e+06
+At iteration 98, max infeasiblity was 3.66479 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 159872
+execution time of global problem update was 5.16288e+06
+min weight = 0.99877, max weight = 1.00448
+Entering iteration 99
+Solving subproblems 
+subproblems took  1.29053e+07
+Find optimal budget allocation 
+budget allocation took  204032
+Constructing primal 
+constructing primal took  1.45651e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.54141e+07
+execution time of average primal update was 0
+execution time of slack update was 1.71712e+06
+At iteration 99, max infeasiblity was 3.64444 on constraint 214656
+execution time of worst infeasibility update was 3456
+execution time of weight update was 159488
+execution time of global problem update was 5.19462e+06
+min weight = 0.998757, max weight = 1.0045
+Entering iteration 100
+Solving subproblems 
+subproblems took  1.30461e+07
+Find optimal budget allocation 
+budget allocation took  193536
+Constructing primal 
+constructing primal took  1.4551e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.55421e+07
+execution time of average primal update was 0
+execution time of slack update was 1.66733e+06
+At iteration 100, max infeasiblity was 3.62423 on constraint 214656
+execution time of worst infeasibility update was 2944
+execution time of weight update was 158976
+execution time of global problem update was 5.0729e+06
+min weight = 0.998744, max weight = 1.00452
+Entering iteration 101
+Solving subproblems 
+subproblems took  1.29926e+07
+Find optimal budget allocation 
+budget allocation took  161024
+Constructing primal 
+constructing primal took  1.39891e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.53848e+07
+execution time of average primal update was 0
+execution time of slack update was 1.6695e+06
+At iteration 101, max infeasiblity was 3.60416 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 160000
+execution time of global problem update was 5.12819e+06
+min weight = 0.998732, max weight = 1.00454
+Entering iteration 102
+Solving subproblems 
+subproblems took  1.32692e+07
+Find optimal budget allocation 
+budget allocation took  166400
+Constructing primal 
+constructing primal took  1.47635e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.57962e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75539e+06
+At iteration 102, max infeasiblity was 3.58424 on constraint 214656
+execution time of worst infeasibility update was 3584
+execution time of weight update was 159232
+execution time of global problem update was 5.31558e+06
+min weight = 0.998719, max weight = 1.00456
+Entering iteration 103
+Solving subproblems 
+subproblems took  1.33532e+07
+Find optimal budget allocation 
+budget allocation took  167168
+Constructing primal 
+constructing primal took  1.48122e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.58853e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75232e+06
+At iteration 103, max infeasiblity was 3.56446 on constraint 214656
+execution time of worst infeasibility update was 3328
+execution time of weight update was 160512
+execution time of global problem update was 5.31072e+06
+min weight = 0.998707, max weight = 1.00458
+Entering iteration 104
+Solving subproblems 
+subproblems took  1.35086e+07
+Find optimal budget allocation 
+budget allocation took  167424
+Constructing primal 
+constructing primal took  1.47277e+06
+Dual Value = 125000
+execution time of relaxation computation was 1.6034e+07
+execution time of average primal update was 0
+execution time of slack update was 1.75078e+06
+At iteration 104, max infeasiblity was 3.54483 on constraint 214656
+execution time of worst infeasibility update was 3072
+execution time of weight update was 159488
+execution time of global problem update was 5.3079e+06
+min weight = 0.998694, max weight = 1.0046
+Entering iteration 105
+Solving subproblems 
+subproblems took  1.34469e+07
+Find optimal budget allocation 
+budget allocation took  166912
+Constructing primal 
+constructing primal took  1.43539e+06
+Dual Value 
