@@ -28,14 +28,14 @@ namespace distributed_solver {
         Constraint(long double price, long double coefficient, long double weight, int index);
         void set_active(bool value);
     };
-    
+
     struct compare_Constraint_by_weight
     {
         bool operator() (const Constraint & lhs, const Constraint & rhs) {
             return (lhs.weight_ < rhs.weight_);
         }
     };
-    
+
     class Subproblem {
     public:
         int num_vars_;

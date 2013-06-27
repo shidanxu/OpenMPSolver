@@ -23,12 +23,12 @@ struct Point {
     coord_t x, y;
     long double weight;
     int constraint_id;
-    
+
     bool operator <(const Point &p) const {
         return x < p.x || (x == p.x && y < p.y);
     }
 };
-        
+
 // Returns a list of points on the convex hull in counter-clockwise order.
 // Note: the last point in the returned list is the same as the first one.
 vector<Point> convex_hull(vector<Point> P);
