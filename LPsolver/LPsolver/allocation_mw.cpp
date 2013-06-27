@@ -111,7 +111,7 @@ namespace distributed_solver {
         }
     }
 
-    /*
+
     void AllocationMW::CalculateSlacks() {
         for (int j = 0; j < num_advertisers_; ++j) {
             slacks_[j] = (-1) * (*budgets_)[j];
@@ -121,9 +121,10 @@ namespace distributed_solver {
             }
         }
     }
-    */
+
 
     // This method is modified
+    /*
     void AllocationMW::CalculateSlacks() {
         omp_set_num_threads(4);
         int j;
@@ -145,6 +146,7 @@ namespace distributed_solver {
     		}
         }
     }
+    */
 
     void AllocationMW::UpdateWeights() {
         for (int j = 0; j < num_advertisers_; ++j) {
