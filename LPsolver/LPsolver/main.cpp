@@ -22,8 +22,8 @@ int main(int argc, const char * argv[])
     //int impression_dimensions [] = {10};
     //long double bid_sparsity_scenario [] = {0.5};
 
-    int advertiser_dimensions [] = {1000000};
-    int impression_dimensions [] = {1000000};
+    long int advertiser_dimensions [] = {1000000};
+    long int impression_dimensions [] = {1000000};
     long double bid_sparsity_scenario [] = {0.0001};
 
     std::string file_name_path = "/Users/ciocan/Documents/Google/data/experiment_";
