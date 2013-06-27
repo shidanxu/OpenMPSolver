@@ -126,12 +126,15 @@ namespace distributed_solver {
     // This method is modified
     void AllocationMW::CalculateSlacks() {
         omp_set_num_threads(4);
+        int j;
+        int myID;
+        int threads;
+        int ending;
     	#pragma omp parallel private ( j, myID, threads, ending )
     	{
-        	int j;
-        	int myID = omp_get_thread_num();
-        	int threads = omp_get_num_threads();
-        	int ending = ( myID + 1 ) * num_advertisers_ / threads;
+        	myID = omp_get_thread_num();
+        	threads = omp_get_num_threads();
+        	ending = ( myID + 1 ) * num_advertisers_ / threads;
 
     		for (j = myID * num_advertisers_ / threads; j < ending; ++j) {
     			slacks_[j] = (-1) * (*budgets_)[j];
