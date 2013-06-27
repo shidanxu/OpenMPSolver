@@ -137,7 +137,6 @@ namespace distributed_solver {
         shared( dual_val )
         {
             threadId = omp_get_thread_num();
-            cout << omp_get_num_threads();
             ending = (threadId + 1 ) * num_partitions_ / num_threads;
             for (i = threadId * num_partitions_ / num_threads; i < ending; i++){
                 long double u = subproblems_[i].envelope_points_[budget_allocation_[i].first].first;

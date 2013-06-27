@@ -121,7 +121,7 @@
 /* Begin PBXProject section */
 		203CE81F1773AB2A00699F1B /* Project object */ = {
 			isa = PBXProject;
-			attributes = {
+			attributes = {Ciocan
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Dragos Ciocan";
 			};
@@ -225,12 +225,12 @@
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = (
-					/Users/ciocan/Applications/IBM/ILOG/CPLEX_Studio_Academic124/cplex/include,
-					/Users/ciocan/Applications/IBM/ILOG/CPLEX_Studio_Academic124/concert/include,
+					/Applications/IBM/ILOG/CPLEX_Studio_Academic124/cplex/include,
+					/Applications/IBM/ILOG/CPLEX_Studio_Academic124/concert/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/ciocan/Applications/IBM/ILOG/CPLEX_Studio_Academic124/cplex/lib/x86-64_darwin9_gcc4.0/static_pic",
-					"/Users/ciocan/Applications/IBM/ILOG/CPLEX_Studio_Academic124/concert/lib/x86-64_darwin9_gcc4.0/static_pic",
+					"/Applications/IBM/ILOG/CPLEX_Studio_Academic124/cplex/lib/x86-64_darwin9_gcc4.0/static_pic",
+					"/Applications/IBM/ILOG/CPLEX_Studio_Academic124/concert/lib/x86-64_darwin9_gcc4.0/static_pic",
 				);
 				OTHER_CFLAGS = "-DIL_STD";
 				OTHER_LDFLAGS = (
@@ -256,12 +256,12 @@
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = (
-					/Users/ciocan/Applications/IBM/ILOG/CPLEX_Studio_Academic124/cplex/include,
-					/Users/ciocan/Applications/IBM/ILOG/CPLEX_Studio_Academic124/concert/include,
+					/Applications/IBM/ILOG/CPLEX_Studio_Academic124/cplex/include,
+					/Applications/IBM/ILOG/CPLEX_Studio_Academic124/concert/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/ciocan/Applications/IBM/ILOG/CPLEX_Studio_Academic124/cplex/lib/x86-64_darwin9_gcc4.0/static_pic",
-					"/Users/ciocan/Applications/IBM/ILOG/CPLEX_Studio_Academic124/concert/lib/x86-64_darwin9_gcc4.0/static_pic",
+					"/Applications/IBM/ILOG/CPLEX_Studio_Academic124/cplex/lib/x86-64_darwin9_gcc4.0/static_pic",
+					"/Applications/IBM/ILOG/CPLEX_Studio_Academic124/concert/lib/x86-64_darwin9_gcc4.0/static_pic",
 				);
 				OTHER_CFLAGS = "-DIL_STD";
 				OTHER_LDFLAGS = (
