@@ -16,13 +16,11 @@
 #include <vector>
 #include "allocation_mw.h"
 
-#include <ilcplex/ilocplex.h>
-ILOSTLBEGIN
 
 using namespace std;
 
 namespace distributed_solver {
-    
+
     class Instance {
         int num_advertisers_;
         int num_impressions_;
@@ -37,20 +35,20 @@ namespace distributed_solver {
         vector<vector<pair<int, long double> > > transpose_bids_matrix_;
         vector<vector<pair<int, pair<long double, long double> > > >* solution_;
 
-        
+
         // Multiplicative weights related vars.
         int iteration_count_;
         long double numerical_accuracy_tolerance_;
-        
+
     public:
         Instance(int num_advertisers, int num_impressions, int num_slots, long double bid_sparsity, long double epsilon,
                  long double scaling_factor, long double numerical_accuracy_tolerance);
         long double max_bid_;
-        
+
         // Generation and output functions.
         void GenerateInstance();
         void SetBudgets();
-        
+
         // Creates current global problem.
         void RunMultiplicativeWeights(long double num_iterations, long double numerical_accuracy_tolerance);
         static void UpdatePrimal(int t,
@@ -58,7 +56,7 @@ namespace distributed_solver {
                                  const vector<pair<pair<int, long double>, pair<int, long double> > >& primal_changes);
         void BuildPrimals();
         static void ResetCurrentPrimal(vector<vector<pair<int, pair<long double, long double> > > >* sol);
-        
+
     private:
         void ReportGraphTopology();
     };
