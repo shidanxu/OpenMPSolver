@@ -14,17 +14,17 @@ int main(int argc, const char * argv[])
     using namespace distributed_solver;
 
     // Add scenarios and path to store instances here...
-    int advertiser_dimensions [] = {1000};
-    int impression_dimensions [] = {1000};
-    long double bid_sparsity_scenario [] = {0.1};
+    //int advertiser_dimensions [] = {1000};
+    //int impression_dimensions [] = {1000};
+    //long double bid_sparsity_scenario [] = {0.1};
 
     //int advertiser_dimensions [] = {2};
     //int impression_dimensions [] = {10};
     //long double bid_sparsity_scenario [] = {0.5};
 
-    //long int advertiser_dimensions [] = {1000000};
-    //long int impression_dimensions [] = {1000000};
-    //long double bid_sparsity_scenario [] = {0.0001};
+    int advertiser_dimensions [] = {1000000};
+    int impression_dimensions [] = {1000000};
+    double bid_sparsity_scenario [] = {0.0001};
 
     std::string file_name_path = "/Users/ciocan/Documents/Google/data/experiment_";
     int num_iterations = 100;

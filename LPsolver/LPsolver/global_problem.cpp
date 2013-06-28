@@ -75,14 +75,15 @@ namespace distributed_solver {
         cout << "Solving subproblems \n";
 
 
+        /*
         for (int i = 0; i < num_partitions_; ++i) {
             //subproblems_[i].SolveSubproblem(iteration, i);
             //subproblems_[i].SolveSubproblemConvexHull(iteration, i);
             subproblems_[i].SolveSubproblemConvexHullOptimized(iteration, i);
         }
-        /*
+        */
 
-        int num_threads = 4;
+        int num_threads = 8;
         int threadId = 0;
         int i, ending;
 
@@ -100,7 +101,7 @@ namespace distributed_solver {
 			}
 		}
 
-         */
+
         t2 = clock();
         diff = ((float)t2-(float)t1);
         cout << "subproblems took  " << diff << "\n";
