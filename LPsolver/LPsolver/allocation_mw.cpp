@@ -116,7 +116,7 @@ namespace distributed_solver {
         for (int j = 0; j < num_advertisers_; ++j) {
             slacks_[j] = (-1) * (*budgets_)[j];
             for (int i = 0; i < (*solution_)[j].size(); ++i) {
-                slacks_[j] += (*solution_)[j][i].second.second * (*bids_matrix_)[j][i].second;
+                slacks_[j] += (*solution_)[j][i].second.first * (*bids_matrix_)[j][i].second;
                 //slacks_[j] = slacks_[j] + iter->second.first * (*bids_matrix_)[j].find(iter->first)->second;
             }
         }

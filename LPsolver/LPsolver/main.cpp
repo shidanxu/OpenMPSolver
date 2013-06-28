@@ -27,7 +27,7 @@ int main(int argc, const char * argv[])
     long double bid_sparsity_scenario [] = {0.0001};
 
     std::string file_name_path = "/Users/ciocan/Documents/Google/data/experiment_";
-    int num_iterations = 20000;
+    int num_iterations = 100;
     long double epsilon = 0.01;
     long double numerical_accuracy_tolerance = 0.000000000000000001;
 
