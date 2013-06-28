@@ -83,7 +83,7 @@ namespace distributed_solver {
         }
         */
 
-        int num_threads = 4;
+        int num_threads = 10;
         int threadId = 0;
         int i, ending;
 
