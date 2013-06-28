@@ -31,8 +31,8 @@ int main(int argc, const char * argv[])
     long double epsilon = 0.01;
     long double numerical_accuracy_tolerance = 0.000000000000000001;
 
-    for (long int i = 0; i < (sizeof(advertiser_dimensions) / sizeof(long int)); ++i) {
-        for (long int j = 0; j < (sizeof(impression_dimensions) / sizeof(long int)); ++j) {
+    for (int i = 0; i < (sizeof(advertiser_dimensions) / sizeof(int)); ++i) {
+        for (int j = 0; j < (sizeof(impression_dimensions) / sizeof(int)); ++j) {
             for (int k = 0; k < (sizeof(bid_sparsity_scenario) / sizeof(long double)); ++k) {
                 Instance inst = Instance(advertiser_dimensions[i],
                                          impression_dimensions[j],
