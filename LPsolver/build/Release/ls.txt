@@ -1,0 +1,4 @@
+LPsolver
+LPsolver.dSYM
+allout.txt
+ls.txt

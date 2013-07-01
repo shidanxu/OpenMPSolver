@@ -90,8 +90,24 @@ namespace distributed_solver {
         // cout << "Size of global problem object is " << (sizeof(global_problem_) * 4.0) / (1024.0 * 1024.0) << "\n";
     }
 
+    /*
     void AllocationMW::UpdateGlobalProblem() {
         // Update weights.
+        for (int i = 0; i < global_problem_.num_partitions_; ++i) {
+            for (int j = 0; j < global_problem_.subproblems_[i].num_vars_; ++j) {
+                global_problem_.subproblems_[i].constraints_[j].coefficient_ = global_problem_.subproblems_[i].constraints_[j].price_ * weights_[global_problem_.subproblems_[i].constraints_[j].advertiser_index_];
+                global_problem_.subproblems_[i].constraints_[j].weight_ = weights_[global_problem_.subproblems_[i].constraints_[j].advertiser_index_];
+                global_problem_.subproblems_[i].constraints_[j].is_active_ = true;
+            }
+        }
+        ComputeWeightedBudget();
+    }
+    */
+    
+    //modifiedd
+    void AllocationMW::UpdateGlobalProblem() {
+        // Update weights.
+        #pragma omp parallel for
         for (int i = 0; i < global_problem_.num_partitions_; ++i) {
             for (int j = 0; j < global_problem_.subproblems_[i].num_vars_; ++j) {
                 global_problem_.subproblems_[i].constraints_[j].coefficient_ = global_problem_.subproblems_[i].constraints_[j].price_ * weights_[global_problem_.subproblems_[i].constraints_[j].advertiser_index_];
@@ -111,7 +127,7 @@ namespace distributed_solver {
         }
     }
 
-
+/*
     void AllocationMW::CalculateSlacks() {
         for (int j = 0; j < num_advertisers_; ++j) {
             slacks_[j] = (-1) * (*budgets_)[j];
@@ -121,32 +137,21 @@ namespace distributed_solver {
             }
         }
     }
-
+*/
 
     // This method is modified
-    /*
+    
     void AllocationMW::CalculateSlacks() {
-        omp_set_num_threads(4);
-        int j;
-        int myID;
-        int threads;
-        int ending;
-    	#pragma omp parallel private ( j, myID, threads, ending )
-    	{
-        	myID = omp_get_thread_num();
-        	threads = omp_get_num_threads();
-        	ending = ( myID + 1 ) * num_advertisers_ / threads;
-
-    		for (j = myID * num_advertisers_ / threads; j < ending; ++j) {
+        omp_set_num_threads(6);
+        #pragma omp parallel for
+        	for (int j = 0; j < num_advertisers_; ++j) {
     			slacks_[j] = (-1) * (*budgets_)[j];
     			for (int i = 0; i < (*solution_)[j].size(); ++i) {
-    				slacks_[j] += (*solution_)[j][i].second.second * (*bids_matrix_)[j][i].second;
-    				//slacks_[j] = slacks_[j] + iter->second.first * (*bids_matrix_)[j].find(iter->first)->second;
-    			}
+    				slacks_[j] += (*solution_)[j][i].second.first * (*bids_matrix_)[j][i].second;
+                }
     		}
-        }
     }
-    */
+    
 
     void AllocationMW::UpdateWeights() {
         for (int j = 0; j < num_advertisers_; ++j) {
@@ -260,12 +265,12 @@ namespace distributed_solver {
             cout << "Entering iteration " << t << "\n";
 
             // Get primal solution.
-            clock_t t1, t2;
+            double t1, t2;
             float diff;
-            t1 = clock();
+            t1 = omp_get_wtime();
             global_problem_.ConstructPrimal(t);
-            t2 = clock();
-            diff = ((float)t2-(float)t1);
+            t2 = omp_get_wtime();
+            diff = t2-t1;
             cout << "execution time of relaxation computation was " << diff << "\n";
 
             t1 = clock();
@@ -278,18 +283,18 @@ namespace distributed_solver {
             // VerifySolution();
 
             // Calculate slacks, update averages and recalculate weights.
-            t1 = clock();
+            t1 = omp_get_wtime();
             CalculateSlacks();
             UpdateAvgSlacks(t);
-            t2 = clock();
-            diff = ((float)t2-(float)t1);
+            t2 = omp_get_wtime();
+            diff = t2-t1;
             cout << "execution time of slack update was " << diff << "\n";
 
             // Calculate slacks, update averages and recalculate weights.
-            t1 = clock();
+            t1 = omp_get_wtime();
             ReportWorstInfeasibility(t);
-            t2 = clock();
-            diff = ((float)t2-(float)t1);
+            t2 = omp_get_wtime();
+            diff = t2-t1;
             cout << "execution time of worst infeasibility update was " << diff << "\n";
 
             // Calculate slacks, update averages and recalculate weights.
@@ -299,10 +304,10 @@ namespace distributed_solver {
             diff = ((float)t2-(float)t1);
             cout << "execution time of weight update was " << diff << "\n";
 
-            t1 = clock();
+            t1 = omp_get_wtime();
             UpdateGlobalProblem();
-            t2 = clock();
-            diff = ((float)t2-(float)t1);
+            t2 = omp_get_wtime();
+            diff = t2-t1;
             cout << "execution time of global problem update was " << diff << "\n";
 
             ReportWeightStats();

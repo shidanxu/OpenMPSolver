@@ -80,9 +80,9 @@
 			children = (
 				203CE82A1773AB2A00699F1B /* main.cpp */,
 				203CE82C1773AB2A00699F1B /* LPsolver.1 */,
+				203CE8361773ABA000699F1B /* allocation_mw.cpp */,
 				203CE8331773AB5C00699F1B /* instance.cpp */,
 				203CE8341773AB5C00699F1B /* instance.h */,
-				203CE8361773ABA000699F1B /* allocation_mw.cpp */,
 				203CE8371773ABA000699F1B /* allocation_mw.h */,
 				203CE8391773AC1800699F1B /* global_problem.cpp */,
 				203CE83A1773AC1800699F1B /* global_problem.h */,

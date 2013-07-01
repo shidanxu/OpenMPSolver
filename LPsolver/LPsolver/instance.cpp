@@ -92,25 +92,19 @@ namespace distributed_solver {
             budgets_[j] = average_bid * (num_impressions_ / num_advertisers_) * scaling_factor_;
         }
     }
-
+    
     void Instance::UpdatePrimal(int t,
                                 vector<vector<pair<int, pair<long double, long double> > > >* solution,
                                 const vector<pair<pair<int, long double>, pair<int, long double> > >& primal_changes) {
-        __gnu_cxx::hash_map<int, long double>::const_iterator iter;
         for (int a = 0; a < (*solution).size(); ++a) {
             for (int j = 0; j < (*solution)[a].size(); ++j) {
-                //iter = (*primal_changes)[a].find((*solution)[a][j].first);
-                //if (iter != (*primal_changes)[a].end())  {
-                    //cout << "setting " << j << ", " << a << " to " << iter->second << "\n";
-                //    (*solution)[a][j].second.first = iter->second;
-                //}
-                if (primal_changes[j].first.first == a) {
-                    (*solution)[a][j].second.first = primal_changes[j].first.second;
-                } else if (primal_changes[j].second.first == a) {
-                    (*solution)[a][j].second.first = primal_changes[j].second.second;
+                if (primal_changes[(*solution)[a][j].first].first.first == a) {
+                    (*solution)[a][j].second.first = primal_changes[(*solution)[a][j].first].first.second;
+                } else if (primal_changes[(*solution)[a][j].first].second.first == a) {
+                    (*solution)[a][j].second.first = primal_changes[(*solution)[a][j].first].second.second;
                 }
                 (*solution)[a][j].second.second = (long double) (t - 1) / t * (*solution)[a][j].second.second +
-                                                  (long double) 1 / t * (*solution)[a][j].second.first;
+                (long double) 1 / t * (*solution)[a][j].second.first;
             }
         }
     }
